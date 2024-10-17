@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roistat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background-color">
+        <div class="background-img">
+            <div class="img-ellipse"></div>
+            <div class="container">
+                <div class="img-star"></div>
+                <header>
+                    <div class="header-block">
+                        <div class="header-wrap">
+                            <a href=""><img src="/images/RoistatLogo.png" alt="" class="header__logo"></a>
+                            <nav class="header__lists">
+                                <a href="" class="header__list header__list--color">Наши предложения</a>
+                                <a href="" class="header__list">Цены</a>
+                            </nav>
+                            <div class="menu-toggle">
+                                <div class="menu-toggle__line1"></div>
+                                <div class="menu-toggle__line2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <section>
+                        <div class="text-wrapper">
+                            <h2 class="main__text main__text--rotate">Черная</h2>
+                            <div class="text__line1">
+                                <div class="text__line-ellipse"></div>
+                            </div>
+                            <div class="text__line2">
+                                <div class="text__line-ellipse"></div>
+                            </div>
+                        </div>
+                        <div class="text-wrapper">
+                            <h2 class="main__text">Пятница</h2>
+                            <div class="text__tag"></div>
+                        </div>
+                        <p class="offer__text">Воспользуйтесь выгодными предложениями от Roistat в ноябре*</p>
+                        <button class="offer__btn">
+                            <span>Получить выгоду</span> <img src="/images/arrow-right.svg" alt=""
+                                class="offer__btn-img">
+                        </button>
+            </div>
+            <img src="/images/line1.png" alt="" class="line1">
+            <img src="/images/line2.png" alt="" class="line2">
+            <p class="action__text">*Акция не распространяется на подключение опций, лимитов, которые были подключены
+                ранее до 1.11.2023 Количество предложений ограничено</p>
+            </section>
+            </main>
+        </div>
+    </div>
+    <div class="modale-block">
+        <div class="modale-container">
+            <h4 class="modale__title">Регистрация</h4>
+            <img src="/images/Vector.svg" class="modale__close" role="button" tabindex="0"
+                aria-label="Закрыть модальное окно">
+            <form id="registrationForm">
+                <div class="inputs-wrapper">
+                    <input type="text" class="modale__input modale__input--name" id="name" placeholder="Имя" required
+                        autocomplete="name">
+                    <input type="text" class="modale__input" id="website" placeholder="Сайт компании" required
+                        autocomplete="organization">
+                    <input type="text" class="modale__input" id="phone" placeholder="Телефон"
+                        autocomplete="tel-national">
+                </div>
+                <button class="modale__btn" type="submit" id="submitBtn" disabled>Получить код</button>
+                <div class="conditions-wrapper">
+                    <input type="checkbox" class="conditions__input" id="consent" required>
+                    <label for="consent" class="conditions__text">
+                        Отправляя сведения через электронную форму, вы даете согласие на обработку персональных данных,
+                        в том числе сбор, хранение и передачу третьим лицам представленной вами информации на условиях
+                        <a href="#">Политики обработки персональных данных.</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="filter"></div>
+</body>
+
+</html>

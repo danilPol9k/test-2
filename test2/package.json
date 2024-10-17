@@ -1,0 +1,14 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniil Polyakov",
+  "email": "dan460@yandex.ru",
+  "tg": "danil_pol9k",
+  "tel": "+7(960)685-65-65",
+  "license": "ISC",
+  "description": ""
+}
